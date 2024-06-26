@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juicy Junction</title>
+
+    <!-- Linking Logo File -->
+    <link rel="logo" type="icon" href="./Assets/Img/j.jpg">
+
+    <!-- Linking Css File -->
+    <link rel="stylesheet" href="Assets/Css/Juicyjunction.css">
+
+    <!-- Linking icon -->
+    <link rel="icon" href="Assets/Img/juicy logo.png">
+
+    <!-- Linking Font Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <!-- Linking Animation on Scroll  css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- reference aos for myself
+    <div data-aos="fade-right" data-aos-delay="20">
+        <h1>Example Text</h1>
+    </div> -->
+
+    <!-- ==========    Home Section Starts========== -->
+    <!-- ==========  Nav Section  Starts ========== -->
+
+    <body>
+
+        <header>
+            <div class="nav">
+                <div class="name">
+                    <a href="/" class="logo" data-aos="fade-up" data-aos-delay="20">
+                        Juicy Junction
+                    </a>
+                </div>
+
+                <ul>
+                    <li data-aos="fade-left" data-aos-delay="50"><a href="#home">Home</a></li>
+                    <li data-aos="fade-left" data-aos-delay="100"><a href="#FreshMenu">Fresh Menu</a></li>
+                    <li data-aos="fade-left" data-aos-delay="140"><a href="#About">About</a></li>
+
+
+                </ul>
+                <div class="box">
+                    <div class="cart-count">0</div>
+                    <ion-icon name="cart" id="cart-icon"></ion-icon>
+                </div>
+
+                <div class="cart">
+                    <div class="cart-title" data-aos="zoom-in" data-aos-delay="50">Cart Items</div>
+                    <div class="cart-content" data-aos="zoom-in" data-aos-delay="80">
+                    </div>
+
+                    <div class="total " data-aos="zoom-in" data-aos-delay="120">
+                        <div class="total-title" data-aos="zoom-in" data-aos-delay="150">Total</div>
+                        <div class="total-price" data-aos="zoom-in" data-aos-delay="180">Rs.0</div>
+                    </div>
+
+                    <button class="btn-buy" data-aos="flip-left" data-aos-delay="220">Place Order</button>
+                    <ion-icon name="close" id="cart-close"></ion-icon>
+                </div>
+            </div>
+        </header>
+
+
+        <!-- Home section   -->
+        <div class="home" id="home">
+            <div class="home-intro" data-aos="fade-down" data-aos-delay="300">Juicy Junction</div>
+            <img src="./Assets/Img/background_image.jpg" alt="right__image" data-aos="fade-left" data-aos-delay="350">
+            <h1 data-aos="slide-right" data-aos-delay="400">Welcome to <span>Juicy Junction</span> </h1>
+
+            <p data-aos="fade-right" data-aos-delay="450">
+                At Juicy Junction, we're dedicated to bringing you the freshest and most flavorful juices, smoothies,
+                and healthy treats. Nestled in the heart of [Location], our vibrant juice bar is a haven for health
+                enthusiasts and taste seekers alike. From revitalizing morning blends to afternoon pick-me-ups, every
+                sip at Juicy Junction is a celebration of natural goodness and irresistible taste. Step into our juice
+                oasis and embark on a journey of wellness and flavor like never before. Whether you're fueling up for
+                the day or treating yourself to a guilt-free indulgence, Juicy Junction is your ultimate destination for
+                all things fresh, delicious, and nutritious.
+        </div>
+        <!-- Home section   -->
+
+        <div class="container" id="FreshMenu">
+            <div class="title-intro" data-aos="fade-left" data-aos-delay="480">Our Fresh Menu</div>
+            <h2 class="title" data-aos="fade-right" data-aos-delay="500">Start Your Day with Refreshment</h2>
+            <div class="shop-content">
+                <div class="food-box" data-aos="flip-left" data-aos-delay="550">
+                    <div class="pic">
+                        <img src="./Assets/Img/orange_juice.avif" class="food-img">
+                    </div>
+                    <h2 class="food-title">Orange Juice</h2>
+                    <span class="food-price">Rs.60</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+
+                <div class="food-box" data-aos="flip-left" data-aos-delay="600">
+                    <div class="pic">
+                        <img src="./Assets/Img/apple_juice.jpg" class="food-img">
+                    </div>
+                    <h2 class="food-title">Apple Juice</h2>
+                    <span class="food-price">Rs.65</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+                <div class="food-box" data-aos="flip-left" data-aos-delay="650">
+                    <div class="pic"><img src="./Assets/Img/watermelon_juice.jpg" class="food-img"></div>
+                    <h2 class="food-title">Watermelon Juice</h2>
+                    <span class="food-price">Rs.70</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+                <div class="food-box" data-aos="flip-left" data-aos-delay="700">
+                    <div class="pic"><img src="./Assets/Img/mango_punch.jpg" class="food-img"></div>
+                    <h2 class="food-title">Mango Punch</h2>
+                    <span class="food-price">Rs.55</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+                <div class="food-box" data-aos="flip-left" data-aos-delay="750">
+                    <div class="pic"><img src="./Assets/Img/grape_juice.jpg" class="food-img"></div>
+                    <h2 class="food-title">Grape Juice</h2>
+                    <span class="food-price">Rs.75</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+                <div class="food-box" data-aos="flip-left" data-aos-delay="800">
+                    <div class="pic"><img src="./Assets/Img/pineapple_juice.jpg" class="food-img"></div>
+                    <h2 class="food-title">PineApple Juice</h2>
+                    <span class="food-price">Rs.70</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+
+                <div class="food-box" data-aos="flip-left" data-aos-delay="850">
+                    <div class="pic"><img src="./Assets/Img/guava.jpg" class="food-img"></div>
+                    <h2 class="food-title">Guava Juice</h2>
+                    <span class="food-price">Rs.65</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+
+                <div class="food-box" data-aos="flip-left" data-aos-delay="900">
+                    <div class="pic"><img src="./Assets/Img/lemon_mint.jpeg" class="food-img"></div>
+                    <h2 class="food-title">Lemon Punch Juice</h2>
+                    <span class="food-price">Rs.45</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+                <div class="food-box" data-aos="flip-left" data-aos-delay="950">
+                    <div class="pic"><img src="./Assets/Img/strawberry_milkshake.jpg" class="food-img"></div>
+                    <h2 class="food-title">Strawberry Milkshake</h2>
+                    <span class="food-price">Rs.80</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+
+                <div class="food-box" data-aos="flip-left" data-aos-delay="1000">
+                    <div class="pic"><img src="./Assets/Img/carrot.jpg" class="food-img"></div>
+                    <h2 class="food-title">Carrot Juice</h2>
+                    <span class="food-price">Rs.50</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+
+                <div class="food-box" data-aos="flip-left" data-aos-delay="1050">
+                    <div class="pic"><img src="./Assets/Img/Almond.jpg" class="food-img"></div>
+                    <h2 class="food-title">Almond Juice</h2>
+                    <span class="food-price">Rs.85</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+
+                <div class="food-box" data-aos="flip-left" data-aos-delay="1100">
+                    <div class="pic"><img src="./Assets/Img/falooda.jpg" class="food-img"></div>
+                    <h2 class="food-title">Falooda</h2>
+                    <span class="food-price">Rs.60</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+
+                <div class="food-box" data-aos="flip-left" data-aos-delay="1150">
+                    <div class="pic"><img src="./Assets/Img/beetroot.jpg" class="food-img"></div>
+                    <h2 class="food-title">Beetroot Juice</h2>
+                    <span class="food-price">Rs.40</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+                <div class="food-box" data-aos="flip-left" data-aos-delay="1200">
+                    <div class="pic"><img src="./Assets/Img/nannari juice.jpg" class="food-img"></div>
+                    <h2 class="food-title">Nannari Juice</h2>
+                    <span class="food-price">Rs.52</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+
+
+                <div class="food-box" data-aos="flip-left" data-aos-delay="1250">
+                    <div class="pic"><img src="./Assets/Img/sugarcane.jpg" class="food-img"></div>
+                    <h2 class="food-title">SugarCane Juice</h2>
+                    <span class="food-price">Rs.30</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+                <div class="food-box" data-aos="flip-left" data-aos-delay="1250">
+                    <div class="pic"><img src="./Assets/Img/rose_milk.jpg" class="food-img"></div>
+                    <h2 class="food-title">Rose Milk</h2>
+                    <span class="food-price">Rs.40</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- About us Starts here  -->
+        <div class="about-us" id="About" data-aos="fade-right" data-aos-delay="1000">
+            <div class="home-intro">About us</div>
+
+            <h1>About us</h1>
+            <img src="./Assets/Img/bg.jpg" alt="about-us--img">
+            <p>
+                Welcome to <span class="name">Juicy Junction</span>, where every sip tells a story of freshness, flavor,
+                and passion for health
+                and wellness. At Juicy Junction, we believe that life is meant to be enjoyed to the fullest, and what
+                better
+                way to do so than with a refreshing glass of nature's goodness?<br>
+                Our journey began with a simple yet profound realization: the power of nature to nourish and revitalize
+                both body and soul. Inspired by the vibrant colors and tantalizing aromas of fresh fruits and
+                vegetables, we
+                set out to create a haven for juice enthusiasts seeking an escape from the mundane and a journey towards
+                vitality.
+                <br>
+                What sets Juicy Junction apart is our unwavering commitment to quality and innovation. We scour the
+                globe for the finest, ripest produce, hand-selecting each ingredient to ensure unparalleled freshness
+                and
+                flavor in every bottle. From exotic superfoods to local favorites, our diverse range of juices reflects
+                our
+                dedication to offering something for everyone, no matter their taste or dietary preference.<br>
+                But Juicy Junction is more than just a juice bar—it's a community united by a shared love for healthy
+                living and vibrant flavors. We believe in fostering connections, whether it's through our welcoming
+                storefronts, engaging events, or online platforms where juice aficionados can come together to exchange
+                recipes,
+                tips, and stories of wellness.<br>
+                Behind every bottle of Juicy Junction juice is a team of passionate individuals dedicated to crafting
+                the perfect blend of taste and nutrition. From our expert juicers to our friendly customer service team,
+                we
+                are united by a common goal: to spread joy, vitality, and deliciousness one sip at a time.<br>
+                Join us on this flavorful journey as we redefine the way the world thinks about juice. Whether you're
+                craving a revitalizing green detox, a tropical burst of sunshine, or a soothing blend to calm the
+                senses,<br>
+                Juicy Junction has the perfect concoction to tantalize your taste buds and nourish your body from the
+                inside out.<br>
+                Indulge in the Juicy Junction experience today and discover why life truly is juicier with us.
+            </p>
+        </div>
+        <!-- About us Ends here  -->
+
+        <!-- footer starts header  -->
+        <footer>
+            <h1>Juicy Junction</h1>
+            <p>Refresh Your <span>Mind</span></p>
+            <div class="social-media">
+                <ul>
+                    <h1>Social Media</h1>
+                    <li><a href="/"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="/"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="/"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+                    <li><a href="/"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                </ul>
+            </div>
+
+            <div class="copyright">
+                &copy; 2024 Juicy Junction. All Rights Reserved. <br>
+                <span>
+                    Made with <ion-icon name="heart"></ion-icon> by Arun Raj R
+                </span>
+            </div>
+        </footer>
+        <!-- footer ends header  -->
+
+        <!-- Linking script file -->
+        <script src="Assets/Javascript/Juicyjunction.js"></script>
+
+        <!-- Linking Script AOS  -->
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script>
+            AOS.init({
+                once: false,
+                duration: 1200,
+            }
+            );
+        </script>
+    </body>
+
+</html>
